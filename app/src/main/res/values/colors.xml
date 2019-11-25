@@ -3,4 +3,15 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <!-- BACKGROUND -->
+    <color name="background_light">#fafafa</color>
+    <color name="background_dodgerBlue">#1E90FF</color>
+
+    <!-- TEXTVIEW -->
+    <color name="text_normal_yellow">#FFFF00</color>
+
+    <!-- BUTTON -->
+    <color name="button_favorite">#F06292</color>
+
 </resources>
