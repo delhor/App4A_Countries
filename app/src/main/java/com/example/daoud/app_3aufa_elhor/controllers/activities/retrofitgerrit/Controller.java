@@ -1,8 +1,6 @@
-package com.example.daoud.app_3aufa_elhor.retrofitgerrit;
+package com.example.daoud.app_3aufa_elhor.controllers.activities.retrofitgerrit;
 
-import android.content.Context;
-
-import com.example.daoud.app_3aufa_elhor.MainActivity;
+import com.example.daoud.app_3aufa_elhor.controllers.activities.controllers.MainActivity;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 

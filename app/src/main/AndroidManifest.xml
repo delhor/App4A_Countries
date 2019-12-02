@@ -10,9 +10,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".Main2Activity"></activity>
-        <activity android:name=".MainActivity">
+        android:theme="@style/Countries">
+        <activity android:name=".controllers.activities.controllers.Main2Activity"
+            android:theme="@style/Countries.Home"></activity>
+        <activity android:name=".controllers.activities.controllers.MainActivity"
+            android:theme="@style/Countries.Detail">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,11 +1,17 @@
-package com.example.daoud.app_3aufa_elhor.retrofitgerrit;
+package com.example.daoud.app_3aufa_elhor.controllers.activities.retrofitgerrit;
 
 public class Country {
 
     String name;
     String capital;
     String region;
+    String flag;
+
     int population;
+
+    public String getFlag() {
+        return flag;
+    }
 
     public String getName() {
         return name;

@@ -1,4 +1,4 @@
-package com.example.daoud.app_3aufa_elhor;
+package com.example.daoud.app_3aufa_elhor.controllers.activities.controllers;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,9 +6,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import com.example.daoud.app_3aufa_elhor.retrofitgerrit.Controller;
-import com.example.daoud.app_3aufa_elhor.retrofitgerrit.Country;
-import com.example.daoud.app_3aufa_elhor.retrofitgerrit.OnItemClickListener;
+import com.example.daoud.app_3aufa_elhor.R;
+import com.example.daoud.app_3aufa_elhor.controllers.activities.retrofitgerrit.Controller;
+import com.example.daoud.app_3aufa_elhor.controllers.activities.retrofitgerrit.Country;
+import com.example.daoud.app_3aufa_elhor.controllers.activities.retrofitgerrit.OnItemClickListener;
 
 import java.util.List;
 
@@ -36,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         // use a linear layout manager
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
-        mAdapter = new MyAdapter(countryList, new OnItemClickListener() {
+        mAdapter = new MyAdapter(countryList, this, new OnItemClickListener() {
             @Override
             public void onItemClick(Country item) {
                 intentExtra(item);

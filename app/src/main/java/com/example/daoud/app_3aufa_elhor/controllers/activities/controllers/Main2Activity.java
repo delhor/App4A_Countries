@@ -1,8 +1,10 @@
-package com.example.daoud.app_3aufa_elhor;
+package com.example.daoud.app_3aufa_elhor.controllers.activities.controllers;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import com.example.daoud.app_3aufa_elhor.R;
 
 public class Main2Activity extends AppCompatActivity {
 
