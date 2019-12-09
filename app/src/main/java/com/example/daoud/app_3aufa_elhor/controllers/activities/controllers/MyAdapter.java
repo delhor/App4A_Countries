@@ -27,16 +27,14 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         public TextView txtHeader;
         public TextView txtFooter;
         public ImageView imageView;
-        public ImageView mImageView;
         public View layout;
 
         public ViewHolder(View v) {
             super(v);
             layout = v;
-            txtHeader =  v.findViewById(R.id.fragment_title);
-            txtFooter =  v.findViewById(R.id.fragment_detail);
-            imageView = v.findViewById(R.id.fragment_image);
-            mImageView = v.findViewById(R.id.fragment_image);
+            txtHeader =  v.findViewById(R.id.firstLine);
+            txtFooter =  v.findViewById(R.id.secondLine);
+            imageView = v.findViewById(R.id.icon);
         }
 
         public void bind(final Country item, final OnItemClickListener listener) {
