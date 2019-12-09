@@ -1,4 +1,4 @@
-package com.example.daoud.app_3aufa_elhor.controllers.activities.controllers;
+package com.example.daoud.app_3aufa_elhor.controllers.activities.fragments;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.daoud.app_3aufa_elhor.R;
+import com.example.daoud.app_3aufa_elhor.controllers.activities.controllers.Utils;
 import com.example.daoud.app_3aufa_elhor.controllers.activities.retrofitgerrit.Country;
 import com.example.daoud.app_3aufa_elhor.controllers.activities.retrofitgerrit.OnItemClickListener;
 

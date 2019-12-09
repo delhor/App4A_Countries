@@ -11,9 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Countries">
-        <activity android:name=".controllers.activities.controllers.DetailActivity"
+        <activity android:name=".controllers.activities.fragments.DetailActivity"
             android:theme="@style/Countries.Home"></activity>
-        <activity android:name=".controllers.activities.controllers.MainActivity"
+        <activity android:name=".controllers.activities.fragments.MainActivity"
             android:theme="@style/Countries.Detail">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

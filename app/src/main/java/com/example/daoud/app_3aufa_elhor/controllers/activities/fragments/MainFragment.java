@@ -1,6 +1,5 @@
 package com.example.daoud.app_3aufa_elhor.controllers.activities.fragments;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -11,9 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.daoud.app_3aufa_elhor.R;
-import com.example.daoud.app_3aufa_elhor.controllers.activities.controllers.DetailActivity;
-import com.example.daoud.app_3aufa_elhor.controllers.activities.controllers.MyAdapter;
-import com.example.daoud.app_3aufa_elhor.controllers.activities.retrofitgerrit.Controller;
+import com.example.daoud.app_3aufa_elhor.controllers.activities.controllers.Controller;
 import com.example.daoud.app_3aufa_elhor.controllers.activities.retrofitgerrit.Country;
 import com.example.daoud.app_3aufa_elhor.controllers.activities.retrofitgerrit.OnItemClickListener;
 
