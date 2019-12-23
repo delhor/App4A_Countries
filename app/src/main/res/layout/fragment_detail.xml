@@ -1,0 +1,47 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:background="@color/background_detail"
+    app:cardCornerRadius="@dimen/margin_small"
+    app:cardElevation="@dimen/margin_small"
+    app:cardMaxElevation="70dp"
+    app:cardUseCompatPadding="true">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/background_detail"
+        android:text="@string/textview"
+        android:textColor="@color/text_normal_red"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/background_detail"
+        android:text="@string/textview"
+        android:textColor="@color/text_normal_red"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/background_detail"
+        android:text="@string/textview"
+        android:textColor="@color/text_normal_red"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="176dp" />
+</android.support.v7.widget.CardView>

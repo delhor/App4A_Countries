@@ -3,4 +3,19 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <!-- BACKGROUND -->
+    <color name="background_green">#ADFF2F</color>
+    <color name="background_dodgerBlue">#1E90FF</color>
+    <color name="background_detail">#F0E68C</color>
+
+    <!-- TEXTVIEW -->
+    <color name="text_normal_red">#DC143C</color>
+
+    <!-- BUTTON -->
+    <color name="button_favorite">#F06292</color>
+
+    <!--Start -->
+    <color name="text_start">#00BFFF</color>
+
 </resources>

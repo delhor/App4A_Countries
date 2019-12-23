@@ -1,20 +1,37 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="Countries" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:padding">@dimen/padding_normal</item>
+        <item name="android:textViewStyle">@style/Countries.Home</item>
+        <item name="android:buttonStyle">@style/Countries.Detail</item>
     </style>
 
-    <style name="AppTheme.NoActionBar">
+    <style name="Countries.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Countries.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Countries.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <!-- Home Screen Theme -->
+    <style name="Countries.Home">
+        <item name="android:windowBackground">@color/background_dodgerBlue</item>
+    </style>
+
+    <!-- Detail Screen Theme -->
+    <style name="Countries.Detail">
+        <item name="android:windowBackground">@color/background_green</item>
+        <item name="android:textSize">@dimen/text_title</item>
+    </style>
+
+    <!-- Home Screen Theme -->
+    <style name="Countries.Title">
+        <item name="android:textSize">@dimen/text_title</item> </style>
 </resources>

@@ -1,8 +1,8 @@
-package com.example.daoud.app_3aufa_elhor.retrofitgerrit;
+package com.example.daoud.app_3aufa_elhor.controllers.activities.controllers;
 
-import android.content.Context;
-
-import com.example.daoud.app_3aufa_elhor.MainActivity;
+import com.example.daoud.app_3aufa_elhor.controllers.activities.view.MainFragment;
+import com.example.daoud.app_3aufa_elhor.controllers.activities.model.Country;
+import com.example.daoud.app_3aufa_elhor.controllers.activities.model.GerritAPI;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -18,11 +18,11 @@ public class Controller implements Callback<List<Country>> {
 
     static final String BASE_URL = "https://restcountries.eu/rest/v2/";
 
-    private final MainActivity mainActivity;
+    private final MainFragment view;
 
 
-    public Controller(MainActivity mainActivity) {
-        this.mainActivity = mainActivity;
+    public Controller(MainFragment view) {
+        this.view = view;
     }
 
     public void start() {
@@ -46,7 +46,7 @@ public class Controller implements Callback<List<Country>> {
     public void onResponse(Call<List<Country>> call, Response<List<Country>> response) {
         if(response.isSuccessful()) {
             List<Country> countryList = response.body();
-            mainActivity.displayCountryList(countryList);
+            view.displayCountryList(countryList);
         } else {
             System.out.println(response.errorBody());
         }
