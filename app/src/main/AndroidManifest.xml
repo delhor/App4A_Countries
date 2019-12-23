@@ -11,15 +11,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Countries">
-        <activity android:name=".controllers.activities.fragments.DetailActivity"
-            android:theme="@style/Countries.Home"></activity>
-        <activity android:name=".controllers.activities.fragments.MainActivity"
-            android:theme="@style/Countries.Detail">
+        <activity android:name=".controllers.activities.view.Start">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".controllers.activities.view.DetailActivity"
+            android:theme="@style/Countries.Home" />
+        <activity
+            android:name=".controllers.activities.view.MainActivity"
+            android:theme="@style/Countries.Detail">
         </activity>
     </application>
 

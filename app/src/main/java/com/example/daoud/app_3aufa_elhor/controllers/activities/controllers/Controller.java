@@ -1,8 +1,8 @@
 package com.example.daoud.app_3aufa_elhor.controllers.activities.controllers;
 
-import com.example.daoud.app_3aufa_elhor.controllers.activities.fragments.MainFragment;
-import com.example.daoud.app_3aufa_elhor.controllers.activities.retrofitgerrit.Country;
-import com.example.daoud.app_3aufa_elhor.controllers.activities.retrofitgerrit.GerritAPI;
+import com.example.daoud.app_3aufa_elhor.controllers.activities.view.MainFragment;
+import com.example.daoud.app_3aufa_elhor.controllers.activities.model.Country;
+import com.example.daoud.app_3aufa_elhor.controllers.activities.model.GerritAPI;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 

@@ -3,7 +3,6 @@ package com.example.daoud.app_3aufa_elhor.controllers.activities.controllers;
 import android.content.Context;
 import android.widget.ImageView;
 
-import com.example.daoud.app_3aufa_elhor.R;
 import com.pixplicity.sharp.Sharp;
 
 import java.io.IOException;

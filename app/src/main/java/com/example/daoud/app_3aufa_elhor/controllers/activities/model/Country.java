@@ -1,4 +1,4 @@
-package com.example.daoud.app_3aufa_elhor.controllers.activities.retrofitgerrit;
+package com.example.daoud.app_3aufa_elhor.controllers.activities.model;
 
 public class Country {
 

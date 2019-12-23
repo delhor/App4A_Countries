@@ -1,13 +1,10 @@
-package com.example.daoud.app_3aufa_elhor.controllers.activities.fragments;
+package com.example.daoud.app_3aufa_elhor.controllers.activities.view;
 
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.TextView;
 
 import com.example.daoud.app_3aufa_elhor.R;
-import com.example.daoud.app_3aufa_elhor.controllers.activities.fragments.DetailFragment;
-import com.example.daoud.app_3aufa_elhor.controllers.activities.fragments.MainFragment;
 
 public class DetailActivity extends AppCompatActivity {
 

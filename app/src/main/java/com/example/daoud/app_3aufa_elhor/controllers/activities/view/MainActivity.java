@@ -1,10 +1,9 @@
-package com.example.daoud.app_3aufa_elhor.controllers.activities.fragments;
+package com.example.daoud.app_3aufa_elhor.controllers.activities.view;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import com.example.daoud.app_3aufa_elhor.R;
-import com.example.daoud.app_3aufa_elhor.controllers.activities.fragments.MainFragment;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -27,7 +27,7 @@
 
     <!-- Detail Screen Theme -->
     <style name="Countries.Detail">
-        <item name="android:windowBackground">@color/background_light</item>
+        <item name="android:windowBackground">@color/background_green</item>
         <item name="android:textSize">@dimen/text_title</item>
     </style>
 

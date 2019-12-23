@@ -1,4 +1,4 @@
-package com.example.daoud.app_3aufa_elhor.controllers.activities.fragments;
+package com.example.daoud.app_3aufa_elhor.controllers.activities.view;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
