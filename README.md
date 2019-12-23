@@ -34,16 +34,16 @@ L'application utilise l'API-REST : https://restcountries.eu/rest/v2/all
 
 Premier écran : Page de démarrage de l'application : 
 
-https://github.com/delhor/App4A_Countries/blob/dev/image1_start.jpg
+![image1_start](https://user-images.githubusercontent.com/44288648/71379984-d7f67c80-25cd-11ea-8d8a-4af23540bba0.jpg)
 
 
 Deuxième écran : Liste des pays du monde entier : 
 
-https://github.com/delhor/App4A_Countries/blob/dev/image2_list.jpg
+![image2_list](https://user-images.githubusercontent.com/44288648/71380054-1e4bdb80-25ce-11ea-8e25-030297b03fde.jpg)
 
 Troisième écran : Détail de chaque item de la liste : 
 
-https://github.com/delhor/App4A_Countries/blob/dev/image3_detail.jpg
+![image3_detail](https://user-images.githubusercontent.com/44288648/71380066-315eab80-25ce-11ea-8336-caa85720d183.jpg)
 
 
 
